@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "tugaspekanan3",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "tugaspekanan3"
   },
@@ -20,8 +21,11 @@
   },
   "homepage": "https://github.com/putriewfauziahr/TugasPekanan3ApiAutomation#readme",
   "dependencies": {
-    "chai": "^5.1.1",
+    "chai": "^4.3.4",
     "jsonschema": "^1.4.1",
     "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
   }
 }
