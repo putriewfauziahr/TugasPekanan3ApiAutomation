@@ -1,0 +1,27 @@
+{
+  "name": "tugaspekanan3apiautomation",
+  "version": "1.0.0",
+  "description": "tugaspekanan3",
+  "main": "index.js",
+  "scripts": {
+    "test": "tugaspekanan3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/putriewfauziahr/TugasPekanan3ApiAutomation.git"
+  },
+  "keywords": [
+    "tugaspekanan3"
+  ],
+  "author": "putrifauziahr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/putriewfauziahr/TugasPekanan3ApiAutomation/issues"
+  },
+  "homepage": "https://github.com/putriewfauziahr/TugasPekanan3ApiAutomation#readme",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "jsonschema": "^1.4.1",
+    "supertest": "^7.0.0"
+  }
+}
