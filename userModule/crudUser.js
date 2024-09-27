@@ -3,7 +3,7 @@ import { expect } from 'chai';
 
 const baseUrl = 'https://kasir-api.zelz.my.id';
 
-describe('CRUD User', function() {
+describe('Test Automation CRUD User', function() {
     let accessLogin;
     let idUser;
     let nameUser;
@@ -28,8 +28,8 @@ describe('CRUD User', function() {
             .post('/users')
             .set('Authorization', `Bearer ${accessLogin}`)
             .send({
-                name: 'Tomyam Seafood',
-                email: 'tomyam.seafood@mailinator.com',
+                name: 'Mochi Kacang Tanah',
+                email: 'mochi.kacang@mailinator.com',
                 password: 'password123'
             });
 
